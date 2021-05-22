@@ -1,0 +1,302 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap') */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap'); */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Russo One', sans-serif;
+}
+section
+{
+  padding: 50px;
+}
+section.EmbeddedSystems
+{
+  padding: 50px;
+}
+
+
+.banner
+{
+  position: relative;
+  min-height: 100vh;
+  background-color: #0d0d0d;
+  /* background: url(kamalesh.png); */
+  background-size:cover;
+  background-position: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner h2
+{
+  font-size: 3em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.banner h2 span
+{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.banner h3
+{
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 500;
+}
+.btn
+{
+  position: relative;
+  background: #2196f3;
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.7s;
+}
+
+header.sticky ul li a
+{
+color: #111;
+
+}
+header.sticky li button
+{
+color: #111;
+}
+
+
+
+header.sticky
+{
+  background: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+.dropbtn {
+  background-color: #0000;;
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  margin: 0 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #2196f3;}
+
+header ul
+{
+  position: relative;
+  display: flex;
+}
+
+header ul li
+{
+  position: relative;
+  list-style: none;
+}
+
+header ul li a
+{
+  position: relative;
+  display: inline-block;
+  margin: 0 0px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.heading
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.heading h2
+{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.heading2
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.heading2 h2
+{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.content
+{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contentBx
+{
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-right: 30px;
+  min-height: 75vh;
+  position: relative;
+}
+
+/* .w50
+{
+  min-width:30%;
+} */
+
+.about
+{
+  background-color: #f0f0f0;
+}
+.Programming
+{
+  background-color: #f0f0f0;
+}
+
+.EmbeddedSystems
+{
+  background-color: #0d0d0d;
+  color: #fff;
+}
+.ProductDesign
+{
+  background-color: #0d0d0d;
+  color: #fff;
+}
+}
+.BusinessAnalytics
+{
+  background-color: #f0f0f0;
+  color: #0d0d0d;
+}
+.services
+{
+    background-color: #0d0d0d;
+}
+.services .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .serviesBx
+{
+  padding: 40px 20px;
+  background: #181818;
+  color: #fff;
+  max-width: 200px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.services .content .serviesBx:hover
+{
+  background: #2196f3;
+}
+.services .content .serviesBx img
+{
+  max-width: 80px;
+}
+.services .content .serviesBx h2
+{
+  font-size: 25px;
+  font-weight: 75;
+}
+
+img
+{
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive */
+/* @media (max-width: 991px)
+{
+  header,
+  header.sticky
+  {
+    padding: 10px 50px;
+    z-index: 1000;
+  }
+.Menu
+{
+  position: fixed;
+  top: 75px;
+  left:0;
+  display: block;
+  padding: 100px 50px;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  transition: 0.5s;
+  z-index: 999;
+  border-top: 1px solid rgba(0,0,0,0.2); */
+
+/* 
+}
+
+} */
